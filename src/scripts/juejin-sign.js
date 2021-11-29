@@ -3,6 +3,7 @@ const sendMail = require("../lib/mail");
 const { JueJin_Domain } = require("../config/domain");
 
 const [cookie] = process.argv.slice(2);
+console.log(cookie);
 
 const res = {
   status: 0, // 状态
